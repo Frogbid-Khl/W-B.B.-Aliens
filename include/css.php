@@ -15,7 +15,7 @@
 
     gtag('config', 'G-0GK0W94TCW');
 </script>
-<title>DinoVerse</title>
+<title>BOOM BOOM ALIEN</title>
 <link rel="icon" sizes="16x16 32x32 48x48 64x64" href="images/apple-touch-icon.png">
 <link rel="shortcut icon" href="images/apple-touch-icon.png">
 <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">

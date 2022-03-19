@@ -399,7 +399,7 @@ body.overflow {
 }
 
 .scroll-wrap::-webkit-scrollbar-thumb {
-    background-color: #eed91c;
+    background-color: #1dceee;
     border-radius: 2px;
     width: 3px !important;
 }
@@ -417,17 +417,15 @@ body.overflow {
 
 
 .btn {
-    color: #eed91c;
+    color: #1dceee;
     padding: 1rem 2.8rem;
-    border: 1px solid #eed91c;
+    border: 1px solid #1dceee;
     font-size: 1.6rem;
     font-weight: 600;
     line-height: 1;
     position: relative;
     border-radius: 1px;
     text-transform: uppercase;
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 37px 64px, 0 26.5px);
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 37px 64px, 0 26.5px);
 }
 
 .btn:before {
@@ -445,7 +443,7 @@ body.overflow {
 
 .btn:hover {
     color: #0C0D08;
-    background-color: #eed91c;
+    background-color: #1dceee;
 }
 
 
@@ -453,7 +451,7 @@ body.overflow {
     font-weight: 700;
     font-size: 2.5rem;
     line-height: 1.2;
-    color: #eed91c;
+    color: #1dceee;
     font-family: chubb;
 }
 
@@ -501,13 +499,13 @@ body.overflow {
 }
 
 .info-list li:before {
-    content: '>>';
+    content: '*';
     position: absolute;
     left: 0;
     top: 0;
     font-weight: 500;
     font-size: 1.5rem;
-    color: #eed91c;
+    color: #1dceee;
 }
 
 @media (min-width: 768px) {
@@ -519,7 +517,7 @@ body.overflow {
 .sub-text {
     font-weight: 500;
     font-size: 18px;
-    color: #d9d55a;
+    color: #1dceee;
 }
 
 @media (min-width: 768px) {
@@ -533,7 +531,7 @@ body.overflow {
     text-align: center;
     font-weight: 500;
     font-size: 1.8rem;
-    color: #eed91c;
+    color: #1dceee;
     margin-bottom: 2rem;
 }
 
@@ -549,7 +547,7 @@ body.overflow {
     font-size: 6rem;
     line-height: 1.5;
     text-transform: uppercase;
-    color: #eed91c;
+    color: #1dceee;
     position: relative;
     font-family: 'chubb';
 }
@@ -580,7 +578,7 @@ body.overflow {
     width:100%;
     height:100%;
     left:-2px;
-    text-shadow:-2px 0 #ffffff, 2px 2px #eed91c;
+    text-shadow:-2px 0 #ffffff, 2px 2px #1dceee;
     animation:glitch-anim2 1s infinite linear alternate-reverse; }*/
 @-webkit-keyframes glitch-anim {
     0% {
@@ -1219,7 +1217,7 @@ body.overflow {
     margin-top: 5px;
     font-size: 22px;
     text-align: center;
-    color: #eed91c;
+    color: #1dceee;
     font-weight: 500;
 }
 
@@ -1253,17 +1251,17 @@ body.overflow {
     -webkit-font-smoothing: inherit;
     -moz-osx-font-smoothing: inherit;
     -webkit-appearance: none;
-    color: #eed91c;
+    color: #1dceee;
     border-color: #000000;
 }
 
 .header .btn:hover {
-    background-color: #eed91c;
+    background-color: #1dceee;
     color: #FFFFFF;
 }
 
 .header .btn:before {
-    border-color: #eed91c;
+    border-color: #1dceee;
 }
 
 .header .container {
@@ -1348,7 +1346,7 @@ body.overflow {
 }
 
 .nav a:hover {
-    color: #eed91c;
+    color: #1dceee;
 }
 
 .nav .btn {
@@ -1361,7 +1359,7 @@ body.overflow {
     display: block;
     font-weight: 600;
     font-size: 1.8rem;
-    color: #eed91c;
+    color: #1dceee;
     margin-bottom: 2rem;
     text-transform: uppercase;
 }
@@ -1584,7 +1582,7 @@ body.overflow {
     display: block;
     font-family: chubb;
     font-size: 1.2rem;
-    color: #eed91c;
+    color: #1dceee;
     -webkit-transform: rotate(-13deg);
     -ms-transform: rotate(-13deg);
     transform: rotate(-13deg);
@@ -1630,8 +1628,8 @@ body.overflow {
 .accordion__item {
     margin-bottom: 1.5rem;
     width: 100%;
-    border: 1px solid #eed91c;
-    border-left: 13px solid #eed91c;
+    border: 1px solid #1dceee;
+    border-left: 13px solid #1dceee;
     position: relative;
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
@@ -1654,7 +1652,7 @@ body.overflow {
     position: relative;
     font-weight: 500;
     font-size: 1.6rem;
-    color: #eed91c;
+    color: #1dceee;
     background-color: transparent;
     margin-right: 2rem;
 }
@@ -1690,7 +1688,7 @@ body.overflow {
 .accordion__icon:before, .accordion__icon:after {
     position: absolute;
     content: "";
-    background-color: #eed91c;
+    background-color: #1dceee;
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
@@ -1719,7 +1717,7 @@ body.overflow {
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
     font-size: 1.4rem;
-    color: #eed91c;
+    color: #1dceee;
     padding: 0 2rem;
     max-width: 110rem;
     line-height: 1.5;
@@ -1964,10 +1962,10 @@ body.overflow {
 .link {
     font-weight: 700;
     font-family: chubb;
-    font-size: 1.6rem;
+    font-size: 1.2rem;
     line-height: 1;
     text-transform: uppercase;
-    color: #eed91c;
+    color: #1dceee;
     padding: 2px 1.8rem 1px;
     border-right: 1px solid rgba(0, 255, 118, 0.35);
 }
@@ -2024,7 +2022,7 @@ body.overflow {
 }
 
 .card__img-wrap {
-    background-color: #eed91c;
+    background-color: #1dceee;
     padding: 1px;
     margin-bottom: 2rem;
     -webkit-clip-path: polygon(0% 0%, 75% 0%, 100% 25%, 100% 100%, 0% 100%);
@@ -2060,7 +2058,7 @@ body.overflow {
 }
 
 .card__link::before {
-    border-color: #eed91c;
+    border-color: #333333;
     border-width: 1.5px;
     width: 3rem;
     height: 3rem;
@@ -2196,8 +2194,8 @@ body.overflow {
 }
 
 .info__wrap {
-    border: 1px solid #eed91c;
-    border-left: 0.7rem solid #eed91c;
+    border: 1px solid #1dceee;
+    border-left: 0.7rem solid #1dceee;
     border-radius: 1px;
     padding: 0.6rem 2rem 0.6rem 1.5rem;
     -webkit-transition: all 0.3s ease;
@@ -2205,7 +2203,7 @@ body.overflow {
     cursor: pointer;
     overflow: hidden;
     position: relative;
-    background: #eed91c17;
+    background: #1dceee17;
 }
 
 .info__wrap:after {
@@ -2237,7 +2235,7 @@ body.overflow {
     font-weight: 500;
     font-size: 1.6rem;
     line-height: 1.2;
-    color: #eed91c;
+    color: #1dceee;
 }
 
 @media (min-width: 768px) {
@@ -2265,7 +2263,6 @@ body.overflow {
 }
 
 .mint-button {
-    display: none;
 }
 
 .links-wrap {
@@ -2275,14 +2272,14 @@ body.overflow {
 
 .mint-link-arrow {
     margin: 0 10px;
-    color: #eed91c;
+    color: #1dceee;
 }
 
 .presale__text {
     text-align: center;
     font-size: 2rem;
     margin-bottom: 10px;
-    color: #eed91c;
+    color: #1dceee;
     font-weight: 500;
 }
 
@@ -2314,7 +2311,7 @@ body.overflow {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    padding: 44px 18px 18px 18px;
+    padding: 57px 18px 18px 18px;
 }
 
 @media (min-width: 1280px) {
@@ -2344,19 +2341,19 @@ body.overflow {
 
 .mint__text span {
     font-weight: 700;
-    color: #eed91c;
+    color: #1dceee;
 }
 
 .mint__link {
     font-weight: 500;
     font-size: 16px;
-    color: #eed91c;
-    border-bottom: 1px solid #eed91c;
+    color: #1dceee;
+    border-bottom: 1px solid #1dceee;
     margin-bottom: 12px;
 }
 
 .mint__link:hover {
-    border-bottom: 1px solid #eed91c;
+    border-bottom: 1px solid #1dceee;
 }
 
 .mint__descr {
@@ -2398,20 +2395,21 @@ body.overflow {
     font-size: 18px;
     text-transform: uppercase;
     color: #000000;
-    background: #eed91c;
+    background: #1dceee;
     border-radius: 1px;
     padding: 14px 30px;
 }
 
 .form__btn:hover {
     color: #ffffff;
+    font-weight: bold;
 }
 
 .form__btn-value {
     width: 48px;
     height: 48px;
     background: #0e1f13;
-    border: 1px solid rgb(238 217 28);
+    border: 1px solid #1dceee;
     border-radius: 1px;
     margin: 5px;
     font-weight: 600;
@@ -2420,7 +2418,7 @@ body.overflow {
 }
 
 .form__btn-value:hover {
-    background: rgb(238 217 28);
+    background: #1dceee;
 }
 
 .form__field {
@@ -2435,7 +2433,7 @@ body.overflow {
     justify-content: space-between;
     background: #0e1f13;
     border-radius: 1px;
-    border: 1px solid rgb(238 217 28);
+    border: 1px solid #1dceee;
     margin: 5px;
 }
 
@@ -2457,7 +2455,7 @@ body.overflow {
 }
 
 .form__btn-add:hover {
-    background: rgb(238 217 28);
+    background: #1dceee;
 }
 
 .form__input {
@@ -2511,7 +2509,7 @@ body.overflow {
     width: 100%;
     padding: 2rem;
     background: rgba(10, 13, 13, 0.6);
-    border: 1px solid #eed91c;
+    border: 1px solid #1dceee;
 }
 
 @media (min-width: 1024px) {
@@ -2535,7 +2533,7 @@ body.overflow {
     .map-block:first-child {
         width: 46%;
         border-right: none;
-        border-bottom: 1px solid #eed91c;
+        border-bottom: 1px solid #1dceee;
     }
 }
 
@@ -2582,7 +2580,7 @@ body.overflow {
 
 .map__item {
     background: rgba(0, 0, 0, 0.3);
-    border: 1px solid #eed91c;
+    border: 1px solid #1dceee;
     border-radius: 1px;
     margin-bottom: 2rem;
     padding: 1.5rem 1.5rem 1.5rem 3rem;

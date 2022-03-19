@@ -17,7 +17,7 @@
 
         @font-face {
             font-family: chubb;
-            src: url(fonts/newFont.ttf);
+            src: url('fonts/Roboto-Regular.otf');
         }
 
     </style>
@@ -25,15 +25,14 @@
 <body>
 <div class="wrapper">
     <header class="header">
-        <div class="container"><a class="logo" href="index-2.html"><img src="images/logo.png" alt=""></a>
+        <div class="container"><a class="logo" href="index.php"><img src="images/logo.png" alt=""></a>
             <nav class="nav js-nav">
                 <ul class="header-btn">
                     <li><a href="#about" style="color: #FFFFFF;">ABOUT</a></li>
-                    <li><a href="#game" style="color: #FFFFFF;">Game</a></li>
+                    <li><a href="#minting" style="color: #FFFFFF;">Private Sale</a></li>
                     <li><a href="#instructions" style="color: #FFFFFF;">Collection </a></li>
                     <li><a href="#roadmap" style="color: #FFFFFF;">ROADMAP</a></li>
                 </ul>
-                <a class="btn" href="#minting" type="button">MINT</a>
                 <a class="btn pl-4 ml-3" href="#minting" type="button">Opensea</a>
             </nav>
             <div class="burger js-burger"><span></span><span></span><span></span></div>
@@ -43,19 +42,58 @@
         <section class="intro-section">
             <div class="container">
                 <div class="intro-links" data-aos="fade-up" data-aos-duration="1100" data-aos-once="true">
-                    <a class="link" href="https://twitter.com/dinoverse_nft" target="_blank">twitter</a>
-                    <a class="link" href="https://discord.gg/xByJQkRwze" target="_blank">discord</a>
-                    <a class="link" href="https://www.instagram.com/dino.verse.nft/" target="_blank">instagram</a>
+                    <a class="link" href="https://twitter.com/bbaliensnft" target="_blank">twitter</a>
+                    <a class="link" href="https://discord.com/invite/wTwqja43Uy" target="_blank">discord</a>
+                    <a class="link" href="https://www.instagram.com/b.b.aliens/" target="_blank">instagram</a>
 
                 </div>
                 <h1 class="main-title" data-aos="fade-up" data-aos-duration="1200" data-aos-once="true"
-                    data-text="Chubb Club">DinoVerse</h1><span class="subtitle" data-aos="fade-up"
+                    data-text="Chubb Club">BOOM BOOM ALIEN</h1><span class="subtitle" data-aos="fade-up"
                                                                data-aos-duration="1250" data-aos-once="true">
-                    🦖Meta Jurassic era is coming, time to get your egg<br>
-                    🐣 and hatch for your most powerful pet!!</span>
+                    BBA is a collection of 7,000 ALIEN NFTs<br>
+                    unique digital collectibles living forever on the Ethereum blockchain (ERC-721)
+                    </span>
                 <div class="info" data-aos="fade-up" data-aos-duration="1300" data-aos-once="true">
                     <div class="info__wrap">
                         <p class="info__text">Minting Date TBC</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="mint-section" id="minting">
+            <div class="container">
+                <div class="mint">
+                    <div class="mint__wrap">
+                        <h2 class="mint__title section-title">Boom Boom Alien <br> Private Sale</h2>
+                        <p class="mint__text">
+                            0.08 Eth + Gas fee per B. B. Aliens</p>
+                        <form class="form" action="#">
+                            <div class="form__wrap">
+                                <div class="form__row">
+                                    <div class="form__field">
+                                        <button class="form__btn-add" type="button" id="minus" onclick="des()">-</button>
+                                        <input class="form__input mint-input" type="number" name="#" id="field" value="1">
+                                        <button class="form__btn-add" type="button" id="plus" onclick="incr()">+</button>
+                                    </div>
+                                </div>
+                                <div class="form__row">
+                                    <button class="form__btn-value" type="button" onclick="show(10)">10</button>
+                                    <button class="form__btn-value" type="button" onclick="show(20)">20</button>
+                                    <button class="form__btn-value" type="button" onclick="show(50)">50</button>
+                                    <button class="form__btn-value" type="button" onclick="show(80)">80</button>
+                                    <button class="form__btn-value" type="button" onclick="show(100)">100</button>
+                                    <button class="form__btn-value" type="button" onclick="show(150)">150</button>
+                                </div>
+                                <button class="form__btn mint-button" type="button">Reserve</button>
+                            </div>
+                        </form>
+                        <div class="links-wrap"><a class="mint__link"
+                                                   href="#"
+                                                   target="_blank" style="none;">View Contract </a></div>
+                        <p class="mint__descr">Please use Chrome/Firefox with metamask extension for PC or metamask app
+                            for mobile</p>
                     </div>
                 </div>
             </div>
@@ -67,21 +105,21 @@
                     <div class="avatar-info">
                         <div class="row">
                             <div class="col-md-6">
-                                <h2 class="section-title" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">DinoVerse</h2>
-                                <p class="sub-text" data-aos="fade-up" data-aos-duration="1100" data-aos-once="true">
-                                    Your access pass to Meta Jurassic!</br>
-                                    Only 5,000 will ever be created!
-                                </p>
-                            </div>
-                            <div class="col-md-6">
                                 <ul class="info-list" data-aos="fade-up" data-aos-duration="1200" data-aos-once="true"
                                     style="color: black">
-                                    <li>Every Dinos will be born from dino eggs and it will accompany with you forever!</li>
-                                    <li>In future, you can hatch them, feed them, play with them!</li>
+                                    <li>When you buy a BB ALIEN , you’re not simply buying an avatar for future valuation. </li>
+                                    <li>You can access a network of music industries across the world . </li>
                                     <li>
-                                        For every Dinos holder, you can explore Meta Jurassic Park in the metaverse!
+                                        Let your Boom Boom Alien be your pass to the musical world of Web 3.0
                                     </li>
                                 </ul>
+                            </div>
+                            <div class="col-md-6">
+                                <h2 class="section-title" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">BOOM BOOM ALIEN</h2>
+                                <p class="sub-text" data-aos="fade-up" data-aos-duration="1100" data-aos-once="true">
+                                    BBA is a collection of 7,000 ALIEN NFTs</br>
+                                    Your Aliens avatar can grant you access to artistic/music events all over the world
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -101,7 +139,7 @@
                                         <div class="card__img-wrap">
                                             <div class="card__img"><img src="images/o01.png" alt=""></div>
                                         </div>
-                                        <button class="card__link btn secondary" type="button" style="font-size: 13px; font-family: pixel">Charles - Mastermind</button>
+                                        <button class="card__link btn secondary" type="button" style="font-size: 13px; font-family: pixel">Thomas - Owner</button>
                                     </div>
                                 </div>
                             </div>
@@ -111,7 +149,7 @@
                                         <div class="card__img-wrap">
                                             <div class="card__img"><img src="images/o11.png" alt=""></div>
                                         </div>
-                                        <button class="card__link btn secondary" type="button" style="font-size: 13px; font-family: pixel">Jess - Marketing Director</button>
+                                        <button class="card__link btn secondary" type="button" style="font-size: 13px; font-family: pixel">Mike - CEO</button>
                                     </div>
                                 </div>
                             </div>
@@ -121,17 +159,17 @@
                                         <div class="card__img-wrap">
                                             <div class="card__img"><img src="images/o21.png" alt=""></div>
                                         </div>
-                                        <button class="card__link btn secondary" type="button" style="font-size: 13px; font-family: pixel">Jessica - Art Director</button>
+                                        <button class="card__link btn secondary" type="button" style="font-size: 13px; font-family: pixel">Francis - COO</button>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-3 col-sm-12">
-                                <div class="card" data-aos="fade-up" data-aos-duration="1200" data-aos-once="true">
+                                <div class="card" data-aos="fade-up" data-aos-duration="1400" data-aos-once="true">
                                     <div class="card__wrap">
                                         <div class="card__img-wrap">
                                             <div class="card__img"><img src="images/o31.png" alt=""></div>
                                         </div>
-                                        <button class="card__link btn secondary" type="button" style="font-size: 13px; font-family: pixel">Franky - CTO</button>
+                                        <button class="card__link btn secondary" type="button" style="font-size: 13px; font-family: pixel">Pinky - CMO</button>
                                     </div>
                                 </div>
                             </div>
@@ -140,28 +178,36 @@
                 </div>
             </div>
         </section>
+
+
+
         <section class="story-section" id="about">
             <div class="container">
                 <div class="map-wrap">
                     <div class="item">
                         <div class="item__wrap">
-                        <div class="item__descr">
-                            <h2 class="section-title" data-aos="fade-up" data-aos-duration="1100" data-aos-once="true">//
-                                The story</h2>
-                            <p class="map-desc scroll scroll-wrap" data-aos="fade-up" data-aos-duration="1200"
-                               data-aos-once="true">We are the scientists who have been studying dinosaurs and the Jurassic
-                                era for decades. We are proud to announce that we have successfully transferred them into
-                                Web 3 and Metaverse! Prepare to get yours and hatch it! More Detail and info will be
-                                released accordingly.</p>
-                        </div>
                         <div class="item__img">
                             <img src="images/story-bg.jpg" width="600px">
                         </div>
+                            <div class="item__descr">
+                                <h2 class="section-title" data-aos="fade-up" data-aos-duration="1100" data-aos-once="true">
+                                    The story</h2>
+                                <p class="map-desc scroll scroll-wrap" data-aos="fade-up" data-aos-duration="1200"
+                                   data-aos-once="true">BBA is a collection of 7,000 ALIEN NFTs—unique digital collectibles living
+                                    forever on the Ethereum blockchain (ERC-721) . Your Aliens avatar can grant you access to
+                                    artistic/music events all over the world, the first of which is access to our royalty
+                                    program on BOOMBOX, a streaming platform that is based on the IPFS. Future royalties
+                                    and perks can be unlocked by the community through roadmap activation.
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+
+
+
         <section class="item-section" id="equipment">
             <div class="container">
                 <div class="item-wrap">
@@ -200,9 +246,10 @@
                                 <h2 class="item__title section-title" data-aos="fade-up" data-aos-duration="1100"
                                     data-aos-once="true">Traits and Rarity:</h2>
                                 <p class="item__text" data-aos="fade-up" data-aos-duration="1200" data-aos-once="true">
-                                    The DinoVerse has lots unique attributes with the possibility of creating over a 5,000 different combinations with different rarity.</p>
+                                    The BOOM BOOM ALIEN has lots unique attributes with the possibility of creating over a 7,000 different combinations
+                                    with different rarity.</p>
                                 <a class="btn primary"
-                                   href="https://discord.gg/xByJQkRwze"
+                                   href="https://discord.com/invite/wTwqja43Uy"
                                    target="_blank" data-aos="fade-up"
                                    data-aos-duration="1400"
                                    data-aos-once="true">Join the
@@ -213,9 +260,12 @@
                 </div>
             </div>
         </section>
+
+
+
         <section class="instruction-section" id="instructions">
             <h2 class="section-title">Collection</h2>
-            <p class="instruction-text base-text"> More info will be released shortly along with more sneak peek🍭!!</p>
+            <!--<p class="instruction-text base-text"> More info will be released shortly along with more sneak peek🍭!!</p>-->
             <div class="instr-wrap">
                 <div class="instr">
                     <div class="instr__wrap">
@@ -225,42 +275,53 @@
                 </div>
             </div>
         </section>
+
+
+
         <section class="map-section" id="roadmap">
             <div class="container">
                 <div class="map-wrap">
                     <div class="map-block map-block_road">
-                        <h2 class="section-title" data-aos="fade-up" data-aos-duration="1100" data-aos-once="true">//
+                        <h2 class="section-title" data-aos="fade-up" data-aos-duration="1100" data-aos-once="true">
                             Roadmap</h2>
                         <p class="map-desc scroll scroll-wrap" data-aos="fade-up" data-aos-duration="1200"
                            data-aos-once="true"></p>
                         <div class="map__item" data-aos="fade-up" data-aos-duration="1100" data-aos-once="true">
-                            <span class="map__percent">Phase One - Minting take place</span>
-                            <p class="map-desc">Total 5,000 of Dinos available in Meta Jurassic era. You will start with an egg and after revealed it will turn into your unique bb dinosaur.</p>
-                        </div>
-                        <div class="map__item" data-aos="fade-up" data-aos-duration="1200" data-aos-once="true">
-                            <span class="map__percent">Phase Two - Game</span>
-                            <p class="map-desc">We don’t stop at the bb dinosaur stage, after you hatch you will then feed them with food and snacks to earn exp, you will also need to take care of the environment such as cleaning up the poo or your bb dinosaur will get sick.
-                                We also have some mini-games(mobile compatible) that you could play with your bb dinosaur to earn exp.
-                                <br>Once your bb dinosaur earns enough exp you can have him evolve into a Juvie dinosaur and adult dinosaur.</p>
+                            <span class="map__percent">Phase-1 Enter Music-Verse with B.B.A.</span>
+                            <ul class="info-list" data-aos="fade-up" data-aos-duration="1200" data-aos-once="true">
+                                <li>2688 pieces will be whitelisted initially and 4312 pieces will be for the public sale.</li>
+                                <li>Rare pieces with song copyrighted ownership: There will be 750 out of 7000 rare pieces that
+                                    will own a copyright ownership of our first royalty-based NFT which is a total 60% of a song,
+                                    but it will be randomized.  In other words, it cannot reserve to buy one specifically that has copyright royalties. </li>
+                            </ul>
+
                         </div>
                     </div>
                     <div class="map-block map-block_fits">
                         <div class="map" style="margin-top: 105px">
-                            <div class="map__item" data-aos="fade-up" data-aos-duration="1100" data-aos-once="true">
-                                <span class="map__percent">Phase Three - MetaVerse</span>
-                                <p class="map-desc"> The dinosaur Metaverse will be opened to all holders, we will be using the Jurassic era as a background. Also, more utility will be available at this stage.</p>
-                            </div>
-
                             <div class="map__item" data-aos="fade-up" data-aos-duration="1200" data-aos-once="true">
-                                <span class="map__percent">Phase Four - Branded items and more!</span>
-                                <p class="map-desc"> We will be creating physical collectible items for our dinosaur and gifting them to its NFT holder.</p>
+                                <span class="map__percent">Phase-2 Music Development and profit sharing</span>
+                                <ul class="info-list" data-aos="fade-up" data-aos-duration="1200" data-aos-once="true">
+                                    <li>Unlock chances of you whitelisting for our exclusive artists’ underground NFT sale. </li>
+                                    <li>Unlock rare NFTs utilities reward - Song streaming and the royalty generated will be shared to the all holders</li>
+                                </ul>
+                            </div>
+                            <div class="map__item" data-aos="fade-up" data-aos-duration="1100" data-aos-once="true">
+                                <span class="map__percent">Phase-3 MetaVerse</span>
+                                <ul class="info-list" data-aos="fade-up" data-aos-duration="1200" data-aos-once="true">
+                                    <li>Enter Metaverse: Secret virtual concert and back-stage passes</li>
+                                    <li>Unlock special instruments and beats</li>
+                                </ul>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="faq-section" id="faq">
+
+
+
+        <!--<section class="faq-section" id="faq">
             <div class="container">
                 <h2 class="section-title">FAQ</h2>
                 <div class="accordion">
@@ -275,70 +336,37 @@
                     </div>
                     <div class="accordion__item">
                         <div class="accordion__title-wrap">
-                            <h3 class="accordion__title">What is a DinoVerse?</h3>
+                            <h3 class="accordion__title">Where can I get my BBA?</h3>
                             <div class="accordion__icon"></div>
                         </div>
                         <div class="accordion__content">
-                            <p class="accordion__desc">DinoVerse is an NFT created by a team of NFT enthusiasts who would like to build a community full of fun and games! </p>
-                        </div>
-                    </div>
-                    <div class="accordion__item">
-                        <div class="accordion__title-wrap">
-                            <h3 class="accordion__title">What can I do with my Dinos?</h3>
-                            <div class="accordion__icon"></div>
-                        </div>
-                        <div class="accordion__content">
-                            <p class="accordion__desc">Each Dinos as your pet, also acts as a membership card to enjoy members-only benefits and events exclusively and access our DinoVerse game.
-                                Be sure to change your social media’s profile picture and tell your friends and family about it!</p>
-                        </div>
-                    </div>
-                    <div class="accordion__item">
-                        <div class="accordion__title-wrap">
-                            <h3 class="accordion__title">How can I get a Dino?</h3>
-                            <div class="accordion__icon"></div>
-                        </div>
-                        <div class="accordion__content">
-                            <p class="accordion__desc">In order to get a Dino, all you need is a MetaMask wallet with some Ethereum in it, then you are good to go!</p>
-                        </div>
-                    </div>
-                    <div class="accordion__item">
-                        <div class="accordion__title-wrap">
-                            <h3 class="accordion__title">Where can I get my Dino?</h3>
-                            <div class="accordion__icon"></div>
-                        </div>
-                        <div class="accordion__content">
-                            <p class="accordion__desc">You can get a Dino through our website when our presale and public sale launches. After that, it will be available for purchase on Opensea for second hand purchases.</p>
-                        </div>
-                    </div>
-                    <div class="accordion__item">
-                        <div class="accordion__title-wrap">
-                            <h3 class="accordion__title">When can I get my Dino?</h3>
-                            <div class="accordion__icon"></div>
-                        </div>
-                        <div class="accordion__content">
-                            <p class="accordion__desc">Stay tuned for updates on our Twitter, Official Website, Discord Channel for any news regarding to the launch time and our future plans!</p>
+                            <p class="accordion__desc">You can get a BBA through our website when our presale and public sale launches. After that, it will be available for purchase on Opensea for second hand purchases.</p>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </section>-->
+
+
+
+
         <section class="bottom-section">
             <div class="container"><img src="images/bottom-bg.png" alt="">
                 <div class="bot-content">
                     <div class="bot-block">
-                        <div class="bot-block-wrap"><span style="font-family: chubb">Weee!!</span></div>
+                        <div class="bot-block-wrap"><span style="font-family: chubb"></span></div>
                     </div>
                     <div class="bot-block">
-                        <div class="bot-block-wrap"><span style="font-family: chubb">Roarrr!!</span></div>
+                        <div class="bot-block-wrap"><span style="font-family: chubb"></span></div>
                     </div>
                     <div class="bot-block">
-                        <div class="bot-block-wrap"><span style="font-family: chubb">YEEET!!</span></div>
+                        <div class="bot-block-wrap"><span style="font-family: chubb"></span></div>
                     </div>
                     <div class="bot-block">
-                        <div class="bot-block-wrap"><span style="font-family: chubb">Meh!!</span></div>
+                        <div class="bot-block-wrap"><span style="font-family: chubb"></span></div>
                     </div>
                     <div class="bot-block">
-                        <div class="bot-block-wrap"><span style="font-family: chubb"> Brrr!!</span></div>
+                        <div class="bot-block-wrap"><span style="font-family: chubb"></span></div>
                     </div>
                 </div>
             </div>
@@ -350,13 +378,13 @@
                 <nav class="nav"><span class="nav-title mr-3">Menu</span>
                     <ul>
                         <li><a href="#about" style="color: white">ABOUT</a></li>
-                        <li><a href="#game" style="color: white">Game</a></li>
+                        <li><a href="#minting" style="color: white">Private Sale</a></li>
                         <li><a href="#instructions" style="color: white">Collection</a></li>
                         <li><a href="#roadmap" style="color: white">ROADMAP</a></li>
                     </ul>
                 </nav>
             </div>
-            <p class="copyright">COPYRIGHT © DINOVERSE. <br> ALL RIGHTS RESERVED</p>
+            <p class="copyright">COPYRIGHT © B.B. Aliens <br> ALL RIGHTS RESERVED</p>
         </div>
     </footer>
     <div class="mask js-mask"></div>
@@ -376,6 +404,30 @@
 <?php
 include("include/js.php");
 ?>
+
+<script>
+    function show (count){
+        document.getElementById("field").value=count;
+    }
+
+    function incr(){
+        var x = document.getElementById("field").value;
+        if (x < 149){
+            x++;
+            document.getElementById("field").value = x;
+        }
+    }
+
+    function des(){
+        var x = document.getElementById("field").value;
+        if (x > 1){
+            x--;
+            document.getElementById("field").value = x;
+        }
+    }
+</script>
+
+
 </body>
 
 </html>
