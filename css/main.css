@@ -399,7 +399,7 @@ body.overflow {
 }
 
 .scroll-wrap::-webkit-scrollbar-thumb {
-    background-color: #1dceee;
+    background-color: #00e0e0;
     border-radius: 2px;
     width: 3px !important;
 }
@@ -417,9 +417,9 @@ body.overflow {
 
 
 .btn {
-    color: #1dceee;
+    color: #00e0e0;
     padding: 1rem 2.8rem;
-    border: 1px solid #1dceee;
+    border: 1px solid #00e0e0;
     font-size: 1.6rem;
     font-weight: 600;
     line-height: 1;
@@ -443,7 +443,7 @@ body.overflow {
 
 .btn:hover {
     color: #0C0D08;
-    background-color: #1dceee;
+    background-color: #00e0e0;
 }
 
 
@@ -451,7 +451,7 @@ body.overflow {
     font-weight: 700;
     font-size: 2.5rem;
     line-height: 1.2;
-    color: #1dceee;
+    color: #c9bc9c;
     font-family: chubb;
 }
 
@@ -505,7 +505,7 @@ body.overflow {
     top: 0;
     font-weight: 500;
     font-size: 1.5rem;
-    color: #1dceee;
+    color: #00e0e0;
 }
 
 @media (min-width: 768px) {
@@ -517,7 +517,7 @@ body.overflow {
 .sub-text {
     font-weight: 500;
     font-size: 18px;
-    color: #1dceee;
+    color: #00e0e0;
 }
 
 @media (min-width: 768px) {
@@ -531,7 +531,7 @@ body.overflow {
     text-align: center;
     font-weight: 500;
     font-size: 1.8rem;
-    color: #1dceee;
+    color: #00e0e0;
     margin-bottom: 2rem;
 }
 
@@ -547,7 +547,7 @@ body.overflow {
     font-size: 6rem;
     line-height: 1.5;
     text-transform: uppercase;
-    color: #1dceee;
+    color: #00e0e0;
     position: relative;
     font-family: 'chubb';
 }
@@ -578,7 +578,7 @@ body.overflow {
     width:100%;
     height:100%;
     left:-2px;
-    text-shadow:-2px 0 #ffffff, 2px 2px #1dceee;
+    text-shadow:-2px 0 #ffffff, 2px 2px #00e0e0;
     animation:glitch-anim2 1s infinite linear alternate-reverse; }*/
 @-webkit-keyframes glitch-anim {
     0% {
@@ -1217,7 +1217,7 @@ body.overflow {
     margin-top: 5px;
     font-size: 22px;
     text-align: center;
-    color: #1dceee;
+    color: #00e0e0;
     font-weight: 500;
 }
 
@@ -1251,17 +1251,17 @@ body.overflow {
     -webkit-font-smoothing: inherit;
     -moz-osx-font-smoothing: inherit;
     -webkit-appearance: none;
-    color: #1dceee;
+    color: #00e0e0;
     border-color: #000000;
 }
 
 .header .btn:hover {
-    background-color: #1dceee;
+    background-color: #00e0e0;
     color: #FFFFFF;
 }
 
 .header .btn:before {
-    border-color: #1dceee;
+    border-color: #00e0e0;
 }
 
 .header .container {
@@ -1346,7 +1346,7 @@ body.overflow {
 }
 
 .nav a:hover {
-    color: #1dceee;
+    color: #00e0e0;
 }
 
 .nav .btn {
@@ -1359,7 +1359,7 @@ body.overflow {
     display: block;
     font-weight: 600;
     font-size: 1.8rem;
-    color: #1dceee;
+    color: #00e0e0;
     margin-bottom: 2rem;
     text-transform: uppercase;
 }
@@ -1441,7 +1441,7 @@ body.overflow {
 
 @media (min-width: 1024px) {
     .avatar-section {
-        padding: 11rem 0;
+        padding: 6rem 0;
     }
 }
 
@@ -1582,7 +1582,7 @@ body.overflow {
     display: block;
     font-family: chubb;
     font-size: 1.2rem;
-    color: #1dceee;
+    color: #00e0e0;
     -webkit-transform: rotate(-13deg);
     -ms-transform: rotate(-13deg);
     transform: rotate(-13deg);
@@ -1628,8 +1628,8 @@ body.overflow {
 .accordion__item {
     margin-bottom: 1.5rem;
     width: 100%;
-    border: 1px solid #1dceee;
-    border-left: 13px solid #1dceee;
+    border: 1px solid #00e0e0;
+    border-left: 13px solid #00e0e0;
     position: relative;
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
@@ -1652,7 +1652,7 @@ body.overflow {
     position: relative;
     font-weight: 500;
     font-size: 1.6rem;
-    color: #1dceee;
+    color: #00e0e0;
     background-color: transparent;
     margin-right: 2rem;
 }
@@ -1688,7 +1688,7 @@ body.overflow {
 .accordion__icon:before, .accordion__icon:after {
     position: absolute;
     content: "";
-    background-color: #1dceee;
+    background-color: #00e0e0;
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
@@ -1717,7 +1717,7 @@ body.overflow {
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
     font-size: 1.4rem;
-    color: #1dceee;
+    color: #00e0e0;
     padding: 0 2rem;
     max-width: 110rem;
     line-height: 1.5;
@@ -1965,7 +1965,7 @@ body.overflow {
     font-size: 1.2rem;
     line-height: 1;
     text-transform: uppercase;
-    color: #1dceee;
+    color: #c9bc9c;
     padding: 2px 1.8rem 1px;
     border-right: 1px solid rgba(0, 255, 118, 0.35);
 }
@@ -2022,7 +2022,7 @@ body.overflow {
 }
 
 .card__img-wrap {
-    background-color: #1dceee;
+    background-color: #00e0e0;
     padding: 1px;
     margin-bottom: 2rem;
     -webkit-clip-path: polygon(0% 0%, 75% 0%, 100% 25%, 100% 100%, 0% 100%);
@@ -2084,7 +2084,7 @@ body.overflow {
 
 @media (min-width: 1360px) {
     .item {
-        margin-bottom: 20rem;
+        margin-bottom: 10rem;
     }
 }
 
@@ -2194,8 +2194,8 @@ body.overflow {
 }
 
 .info__wrap {
-    border: 1px solid #1dceee;
-    border-left: 0.7rem solid #1dceee;
+    border: 1px solid #00e0e0;
+    border-left: 0.7rem solid #00e0e0;
     border-radius: 1px;
     padding: 0.6rem 2rem 0.6rem 1.5rem;
     -webkit-transition: all 0.3s ease;
@@ -2203,7 +2203,7 @@ body.overflow {
     cursor: pointer;
     overflow: hidden;
     position: relative;
-    background: #1dceee17;
+    background: #00e0e017;
 }
 
 .info__wrap:after {
@@ -2235,7 +2235,7 @@ body.overflow {
     font-weight: 500;
     font-size: 1.6rem;
     line-height: 1.2;
-    color: #1dceee;
+    color: #00e0e0;
 }
 
 @media (min-width: 768px) {
@@ -2272,14 +2272,14 @@ body.overflow {
 
 .mint-link-arrow {
     margin: 0 10px;
-    color: #1dceee;
+    color: #00e0e0;
 }
 
 .presale__text {
     text-align: center;
     font-size: 2rem;
     margin-bottom: 10px;
-    color: #1dceee;
+    color: #00e0e0;
     font-weight: 500;
 }
 
@@ -2341,19 +2341,19 @@ body.overflow {
 
 .mint__text span {
     font-weight: 700;
-    color: #1dceee;
+    color: #00e0e0;
 }
 
 .mint__link {
     font-weight: 500;
     font-size: 16px;
-    color: #1dceee;
-    border-bottom: 1px solid #1dceee;
+    color: #00e0e0;
+    border-bottom: 1px solid #00e0e0;
     margin-bottom: 12px;
 }
 
 .mint__link:hover {
-    border-bottom: 1px solid #1dceee;
+    border-bottom: 1px solid #00e0e0;
 }
 
 .mint__descr {
@@ -2395,7 +2395,7 @@ body.overflow {
     font-size: 18px;
     text-transform: uppercase;
     color: #000000;
-    background: #1dceee;
+    background: #00e0e0;
     border-radius: 1px;
     padding: 14px 30px;
 }
@@ -2409,7 +2409,7 @@ body.overflow {
     width: 48px;
     height: 48px;
     background: #0e1f13;
-    border: 1px solid #1dceee;
+    border: 1px solid #00e0e0;
     border-radius: 1px;
     margin: 5px;
     font-weight: 600;
@@ -2418,7 +2418,7 @@ body.overflow {
 }
 
 .form__btn-value:hover {
-    background: #1dceee;
+    background: #00e0e0;
 }
 
 .form__field {
@@ -2433,7 +2433,7 @@ body.overflow {
     justify-content: space-between;
     background: #0e1f13;
     border-radius: 1px;
-    border: 1px solid #1dceee;
+    border: 1px solid #00e0e0;
     margin: 5px;
 }
 
@@ -2455,7 +2455,7 @@ body.overflow {
 }
 
 .form__btn-add:hover {
-    background: #1dceee;
+    background: #00e0e0;
 }
 
 .form__input {
@@ -2494,11 +2494,11 @@ body.overflow {
         content: '';
         width: 70px;
         height: 70px;
-        border-top: 1px solid #000000;
+        border-top: 1px solid #040234;
         -webkit-transform: rotate(45deg);
         -ms-transform: rotate(45deg);
         transform: rotate(45deg);
-        background-color: #0C0D08;
+        background-color: #040234;
         bottom: -35px;
         z-index: 1;
         left: -35px;
@@ -2509,7 +2509,7 @@ body.overflow {
     width: 100%;
     padding: 2rem;
     background: rgba(10, 13, 13, 0.6);
-    border: 1px solid #1dceee;
+    border: 1px solid #00e0e0;
 }
 
 @media (min-width: 1024px) {
@@ -2533,7 +2533,7 @@ body.overflow {
     .map-block:first-child {
         width: 46%;
         border-right: none;
-        border-bottom: 1px solid #1dceee;
+        border-bottom: 1px solid #00e0e0;
     }
 }
 
@@ -2580,7 +2580,7 @@ body.overflow {
 
 .map__item {
     background: rgba(0, 0, 0, 0.3);
-    border: 1px solid #1dceee;
+    border: 1px solid #00e0e0;
     border-radius: 1px;
     margin-bottom: 2rem;
     padding: 1.5rem 1.5rem 1.5rem 3rem;
@@ -2656,7 +2656,7 @@ body.overflow {
 
 @media (min-width: 1024px) {
     .story-section {
-        padding: 20rem 0 19rem 0;
+        padding: 9rem 0 4rem 0;
     }
 }
 
@@ -2687,4 +2687,43 @@ body.overflow {
 
 .white{
     color: #FFFFFF;
+}
+
+.payment{
+    position: relative;
+    color: #D1C4E9;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: #D1C4E9 1px 0 10px;
+    height: 80px;
+    width: 80px;
+    border: solid 1px #D1C4E9;
+    border-radius: 175px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.payment:before {
+    content: '';
+    position: absolute;
+    background: #c9bc9c;
+    width: 0;
+    height: 0;
+    z-index: -1;
+    border-radius: 175px;
+    box-shadow: 0px 0px 24px 1px rgba(224,199,224,0.2);
+    transition: all 900ms cubic-bezier(1.000, -0.195, 0.000, 1.330);
+    transition-timing-function: cubic-bezier(1.000, -0.195, 0.000, 1.330);
+}
+
+.payment:hover:before {
+    width: 85%;
+    height: 85%;
+}
+
+.payment:active:before, .payment:focus:before {
+    width: 100%;
+    height: 100%;
 }

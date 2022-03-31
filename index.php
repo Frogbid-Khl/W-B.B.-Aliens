@@ -11,7 +11,7 @@
     <style>
         body {
             margin: 0;
-            background-color: #000000;
+            background-color: #040234;
             font-family: chubb;
         }
 
@@ -48,10 +48,10 @@
 
                 </div>
                 <h1 class="main-title" data-aos="fade-up" data-aos-duration="1200" data-aos-once="true"
-                    data-text="Chubb Club">BOOM BOOM ALIEN</h1><span class="subtitle" data-aos="fade-up"
+                    data-text="Chubb Club">BOOM BOOM ALIENS</h1><span class="subtitle" data-aos="fade-up"
                                                                data-aos-duration="1250" data-aos-once="true">
-                    BBA is a collection of 7,000 ALIEN NFTs<br>
-                    unique digital collectibles living forever on the Ethereum blockchain (ERC-721)
+                    BBA is a collection of 7,000 ALIENS NFTs<br>
+                    unique digital collectibles living forever on the <br> Ethereum blockchain (ERC-721)
                     </span>
                 <div class="info" data-aos="fade-up" data-aos-duration="1300" data-aos-once="true">
                     <div class="info__wrap">
@@ -62,11 +62,40 @@
         </section>
 
 
-        <section class="mint-section" id="minting">
+        <h2 class="mint__title section-title" style="margin-top: 50px;"> Boom Boom Aliens Private Sale</h2>
+        <div class="container" style="margin-top: 50px;">
+        <div class="row">
+            <div class="col-md-4 col-lg-4 col-sm-6">
+                <a href="#" class="payment">1</a>
+                <h3 class="mt-3">Bank Transfer</h3>
+                <p>A/C No: 012-594-0-004878-7 <br> A/C Name: Hkbc Media Ltd.</p>
+            </div>
+            <div class="col-md-4 col-lg-4 col-sm-6">
+                <a href="#" class="payment">2</a>
+                <h3 class="mt-3">Check pay in the order of: HKBC Media Ltd.</h3>
+                <img src="images/qr.png" style="width: 120px; height: 120px; margin-top: 10px">
+            </div>
+            <div class="col-md-4 col-lg-4 col-sm-6">
+                <a href="#" class="payment">3</a>
+                <h3 class="mt-3">Deposit ETH/USDT (ERC20) to </h3>
+                <h3 class="mt-3">Wallet address:</h3>
+                <h3 class="mt-3">0x8ee39 0BE5d8 85d8F0Bd B093dee3859 9722C6d1D9</h3>
+            </div>
+        </div>
+        </div>
+        <div class="container">
+            <div class="row m-5">
+                <img src="images/banner.png" class="img-fluid" alt="Responsive image">
+
+            </div>
+        </div>
+
+        <!--<section class="mint-section" id="minting">
             <div class="container">
                 <div class="mint">
                     <div class="mint__wrap">
-                        <h2 class="mint__title section-title">Boom Boom Alien <br> Private Sale</h2>
+
+                        <h2 class="mint__title section-title">Boom Boom Alien</h2>
                         <p class="mint__text">
                             0.08 Eth + Gas fee per B. B. Aliens</p>
                         <form class="form" action="#">
@@ -86,18 +115,19 @@
                                     <button class="form__btn-value" type="button" onclick="show(100)">100</button>
                                     <button class="form__btn-value" type="button" onclick="show(150)">150</button>
                                 </div>
-                                <button class="form__btn mint-button" type="button">Reserve</button>
+                                <button class="form__btn mint-button" type="button">Contact</button>
                             </div>
                         </form>
                         <div class="links-wrap"><a class="mint__link"
                                                    href="#"
-                                                   target="_blank" style="none;">View Contract </a></div>
+                                                   target="_blank" style="none;">View Contract </a>
+                        </div>
                         <p class="mint__descr">Please use Chrome/Firefox with metamask extension for PC or metamask app
                             for mobile</p>
                     </div>
                 </div>
             </div>
-        </section>
+        </section>-->
 
         <section class="avatar-section">
             <div class="container">
@@ -107,7 +137,7 @@
                             <div class="col-md-6">
                                 <ul class="info-list" data-aos="fade-up" data-aos-duration="1200" data-aos-once="true"
                                     style="color: black">
-                                    <li>When you buy a BB ALIEN , you’re not simply buying an avatar for future valuation. </li>
+                                    <li>When you buy a BB ALIENS , you’re not simply buying an avatar for future valuation. </li>
                                     <li>You can access a network of music industries across the world . </li>
                                     <li>
                                         Let your Boom Boom Alien be your pass to the musical world of Web 3.0
@@ -115,9 +145,9 @@
                                 </ul>
                             </div>
                             <div class="col-md-6">
-                                <h2 class="section-title" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">BOOM BOOM ALIEN</h2>
+                                <h2 class="section-title" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">BOOM BOOM ALIENS</h2>
                                 <p class="sub-text" data-aos="fade-up" data-aos-duration="1100" data-aos-once="true">
-                                    BBA is a collection of 7,000 ALIEN NFTs</br>
+                                    BBA is a collection of 7,000 ALIENS NFTs</br>
                                     Your Aliens avatar can grant you access to artistic/music events all over the world
                                 </p>
                             </div>
@@ -193,7 +223,7 @@
                                 <h2 class="section-title" data-aos="fade-up" data-aos-duration="1100" data-aos-once="true">
                                     The story</h2>
                                 <p class="map-desc scroll scroll-wrap" data-aos="fade-up" data-aos-duration="1200"
-                                   data-aos-once="true">BBA is a collection of 7,000 ALIEN NFTs—unique digital collectibles living
+                                   data-aos-once="true">BBA is a collection of 7,000 ALIENS NFTs—unique digital collectibles living
                                     forever on the Ethereum blockchain (ERC-721) . Your Aliens avatar can grant you access to
                                     artistic/music events all over the world, the first of which is access to our royalty
                                     program on BOOMBOX, a streaming platform that is based on the IPFS. Future royalties
@@ -246,7 +276,7 @@
                                 <h2 class="item__title section-title" data-aos="fade-up" data-aos-duration="1100"
                                     data-aos-once="true">Traits and Rarity:</h2>
                                 <p class="item__text" data-aos="fade-up" data-aos-duration="1200" data-aos-once="true">
-                                    The BOOM BOOM ALIEN has lots unique attributes with the possibility of creating over a 7,000 different combinations
+                                    The BOOM BOOM ALIENS has lots unique attributes with the possibility of creating over a 7,000 different combinations
                                     with different rarity.</p>
                                 <a class="btn primary"
                                    href="https://discord.com/invite/wTwqja43Uy"
@@ -290,9 +320,8 @@
                             <span class="map__percent">Phase-1 Enter Music-Verse with B.B.A.</span>
                             <ul class="info-list" data-aos="fade-up" data-aos-duration="1200" data-aos-once="true">
                                 <li>2688 pieces will be whitelisted initially and 4312 pieces will be for the public sale.</li>
-                                <li>Rare pieces with song copyrighted ownership: There will be 750 out of 7000 rare pieces that
-                                    will own a copyright ownership of our first royalty-based NFT which is a total 60% of a song,
-                                    but it will be randomized.  In other words, it cannot reserve to buy one specifically that has copyright royalties. </li>
+                                <li>Rare pieces with song copyrighted ownership: There are 7000 pieces that will own a copyright ownership of our first royalty-based NFT.
+                                    NFT ERC-721 to own the copy of AVA-metaverse (LINK) </li>
                             </ul>
 
                         </div>
@@ -302,8 +331,10 @@
                             <div class="map__item" data-aos="fade-up" data-aos-duration="1200" data-aos-once="true">
                                 <span class="map__percent">Phase-2 Music Development and profit sharing</span>
                                 <ul class="info-list" data-aos="fade-up" data-aos-duration="1200" data-aos-once="true">
-                                    <li>Unlock chances of you whitelisting for our exclusive artists’ underground NFT sale. </li>
+                                    <li>Every nft owner also owns 1/7000 right of Ava, our first avatar performer in the metaverse, via a DAO mechanism</li>
                                     <li>Unlock rare NFTs utilities reward - Song streaming and the royalty generated will be shared to the all holders</li>
+                                    <li>Musifi’s DAO mechanism is in full swing with voting on Musifi's distribution of profits.</li>
+                                    <li>Unlock chances of you whitelisting for our exclusive artists’ underground NFT sale.</li>
                                 </ul>
                             </div>
                             <div class="map__item" data-aos="fade-up" data-aos-duration="1100" data-aos-once="true">
@@ -311,6 +342,7 @@
                                 <ul class="info-list" data-aos="fade-up" data-aos-duration="1200" data-aos-once="true">
                                     <li>Enter Metaverse: Secret virtual concert and back-stage passes</li>
                                     <li>Unlock special instruments and beats</li>
+                                    <li>As a world renowned first music collectible that has reached upto 100X of the original value.</li>
                                 </ul>
                             </div>
                         </div>
@@ -321,7 +353,7 @@
 
 
 
-        <!--<section class="faq-section" id="faq">
+        <section class="faq-section" id="faq">
             <div class="container">
                 <h2 class="section-title">FAQ</h2>
                 <div class="accordion">
@@ -336,16 +368,34 @@
                     </div>
                     <div class="accordion__item">
                         <div class="accordion__title-wrap">
+                            <h3 class="accordion__title">How can I get a BBA?</h3>
+                            <div class="accordion__icon"></div>
+                        </div>
+                        <div class="accordion__content">
+                            <p class="accordion__desc">In order to get an Aliens, all you need is a MetaMask wallet with some Ethereum in it, then you are good to go!</p>
+                        </div>
+                    </div>
+                    <div class="accordion__item">
+                        <div class="accordion__title-wrap">
                             <h3 class="accordion__title">Where can I get my BBA?</h3>
                             <div class="accordion__icon"></div>
                         </div>
                         <div class="accordion__content">
-                            <p class="accordion__desc">You can get a BBA through our website when our presale and public sale launches. After that, it will be available for purchase on Opensea for second hand purchases.</p>
+                            <p class="accordion__desc">You can get a BBA through our website when our presale and public sale launches. After that, it will be available for purchase on Opensea for second hand purchases</p>
+                        </div>
+                    </div>
+                    <div class="accordion__item">
+                        <div class="accordion__title-wrap">
+                            <h3 class="accordion__title">When can I get my BBA?</h3>
+                            <div class="accordion__icon"></div>
+                        </div>
+                        <div class="accordion__content">
+                            <p class="accordion__desc">Stay tuned for updates on our Twitter, Official Website, Discord Channel for any news regarding to the launch time and our future plans!</p>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>-->
+        </section>
 
 
 

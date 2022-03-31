@@ -16,13 +16,10 @@
     gtag('config', 'G-0GK0W94TCW');
 </script>
 <title>BOOM BOOM ALIEN</title>
-<link rel="icon" sizes="16x16 32x32 48x48 64x64" href="images/apple-touch-icon.png">
-<link rel="shortcut icon" href="images/apple-touch-icon.png">
-<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+
 <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
-<link rel="manifest" href="images/site.webmanifest">
-<link rel="mask-icon" href="images/safari-pinned-tab.svg" color="#5bbad5">
+
 <link rel="preconnect" href="https://fonts.googleapis.com/">
 <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&amp;display=swap"
